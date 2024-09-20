@@ -26,34 +26,6 @@ To run this analysis, you will need the following:
   pip install -r requirements.txt
   ```
 
-### Required Libraries
-
-The notebook uses the following libraries:
-
-- `pandas` for data manipulation
-- `numpy` for numerical operations
-- `matplotlib` and `seaborn` for data visualization
-- `scikit-learn` for data preprocessing
-
-## Dataset
-
-The dataset used in this analysis contains **18 categorical variables** related to drug use and side effects. The dataset includes the following key features:
-
-- **Gender**: The gender of the user.
-- **Date of Birth**: The date of birth of the user.
-- **Nationality**: The nationality of the user.
-- **City**: The city where the user lives.
-- **Drug Name**: The name of the drug.
-- **Drug Start Date**: The date the user started taking the drug.
-- **Drug End Date**: The date the user stopped using the drug.
-- **Side Effects**: Categorical variables representing the type and severity of side effects reported.
-- **Side Effect Reporting Date**: The date the user reported using drug.
-- **Allergies**: Allergies the user have.
-- **Chronic Diseases**: Chronic diseases the user have.
-- **Blood Types**: The blood type of the user.
-- **Weight**: The weight of the user.
-- **Height**: The height of the user.
-
 ## How to Run the Code
 
 1. **Clone the repository**:
@@ -82,7 +54,26 @@ The dataset used in this analysis contains **18 categorical variables** related 
 4. **Run the notebook cells**:
    Execute the cells sequentially to perform the data analysis.
 
-### Exploratory Data Analysis (EDA)
+## Dataset
+
+The dataset used in this analysis contains **18 categorical variables** related to drug use and side effects. The dataset includes the following key features:
+
+- **Gender**: The gender of the user.
+- **Date of Birth**: The date of birth of the user.
+- **Nationality**: The nationality of the user.
+- **City**: The city where the user lives.
+- **Drug Name**: The name of the drug.
+- **Drug Start Date**: The date the user started taking the drug.
+- **Drug End Date**: The date the user stopped using the drug.
+- **Side Effects**: Categorical variables representing the type and severity of side effects reported.
+- **Side Effect Reporting Date**: The date the user reported using drug.
+- **Allergies**: Allergies the user have.
+- **Chronic Diseases**: Chronic diseases the user have.
+- **Blood Types**: The blood type of the user.
+- **Weight**: The weight of the user.
+- **Height**: The height of the user.
+
+## Exploratory Data Analysis (EDA)
 
 The notebook performs various EDA tasks, including:
 
@@ -92,7 +83,7 @@ The notebook performs various EDA tasks, including:
 - Investigating correlations between side effect, allergy, blood type, gender and age group.
 - Identifying trends and patterns in the data using statistical methods and visualizations.
 
-### Data Preprocessing Steps
+## Data Preprocessing Steps
 
 The notebook includes the following data preprocessing steps:
 
