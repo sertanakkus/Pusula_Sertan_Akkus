@@ -1,5 +1,5 @@
-Name: Sertan
-Surname: Akkuş
+Name: Sertan <br>
+Surname: Akkuş <br>
 E-mail: sertanakkus.sa@gmail.com
 
 # Drug Side Effects Analysis
